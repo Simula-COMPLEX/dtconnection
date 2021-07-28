@@ -22,8 +22,11 @@ POST IMAGE HERE
 
 ### Dependencies
 
-Carla 0.9.8 - Should not be a problem to use later releases
-OpenModelica 1.16.1 - Should not be a problem to use later releases
+Carla 0.9.8
+
+OpenModelica 1.16.1
+
+Should not be a problem to use later releases
 
 If you are going to use Python as the brigde between the tools, you should check out these two links: 
 OM Python API: https://openmodelica.org/doc/OpenModelicaUsersGuide/latest/ompython.html
