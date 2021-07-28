@@ -34,7 +34,9 @@ Carla Python API: https://carla.readthedocs.io/en/latest/build_windows/
 
 <b>DigitalTwinLibrary</b> - When you download this folder, you may want to save it togheter with the other OpenModelica libraries. The path should be ~\OpenModelica1.16.1-64bit\lib\omlibrary.
 
-Connected2API.py gets it input data from a restfulAPI, which is accessed by a server that is located in China. You may need to apply a new method of feeding input data to the Digital Twin. In the configuration developed in Connected2API.py we only use the forward speed as input, so for prototyping you could create a numpy array that represents speed parameters as input data to the Digitla Twin, before you connect a Physical Twin. So, the script may need some changes if you want to run Connected2API.py. The changes that you need to apply if you can not connect to the restful API is: 
+<b>Connected2API.py</b> gets it input data from a restfulAPI, which is accessed by a server that is located in China. You may need to apply a new method of feeding input data to the Digital Twin. In the configuration developed in Connected2API.py we only use the forward speed as input, so for prototyping you could create a numpy array that represents speed parameters as input data to the Digitla Twin, before you connect a Physical Twin. So, the script may need some changes if you want to run Connected2API.py. 
+
+The changes that you need to apply if you <b>can not</b> connect to the restful API is: 
 
 
 1. Either create a new restful API for the LGSVL-simulator etc, or create numpy arrays that represent the parameters that you want to feed the Digital Twin with and loop through them in the for loop. This is a nice method of prototyping the Digital Twin before we connect the system to a Physical Twin. If you want to connect the Digital Twin to a Physical Twin, you should fetch the sensor data from your robot/object, this data should be avaliable from a microchip/microprossessor on your robot. 
