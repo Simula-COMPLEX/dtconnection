@@ -3,7 +3,7 @@
 
 ## Description
 
-If anybody want to continue on this work, I would suggest that you read the method chapter (chapter 3) in "UIO_masterthesis_soma.pdf". Further, to get the fundamental understanding of Digital Twins before starting, I would suggest that you red David Jones et al. 'Characterising the Digital Twin: A systematic literature review' and Tao Yue et al. 'Understanding Digital Twins for Cyber-Physical Systems: A Conceptual Model'
+If anybody want to continue on this work, I would suggest that you read the method chapter (chapter 3) in "UIO_masterthesis_soma.pdf". Further, to get the fundamental understanding of Digital Twins before starting, I would suggest that you read David Jones et al. 'Characterising the Digital Twin: A systematic literature review' and Tao Yue et al. 'Understanding Digital Twins for Cyber-Physical Systems: A Conceptual Model'
 
 The thougth behind this project was to have the Digital Twin one step ahead of the Physical Twin, by adding this feature to the Digital Twin it is possible to find solutions in the digital world before we deploy actions to the physical world, in real time. Below is an image of the configuration that have been developed. The python code that is attatched in this rep got detailed comments, which also explains the flow of the configuration below.  
 
