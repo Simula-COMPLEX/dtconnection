@@ -1,6 +1,5 @@
 # Prototyping Connection Between Digital Twin and Physical Twin for Autonomous Driving to Support Experimentation
 
-Simple overview of use/purpose.
 
 ## Description
 
