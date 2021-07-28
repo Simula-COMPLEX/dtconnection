@@ -22,13 +22,19 @@ POST IMAGE HERE
 
 ### Dependencies
 
-* Describe any prerequisites, libraries, OS version, etc., needed before installing program.
-* ex. Windows 10
+Carla 0.9.8 - Should not be a problem to use later releases
+OpenModelica 1.16.1 - Should not be a problem to use later releases
+
+If you are going to use Python as the brigde between the tools, you should check out these two links: 
+OM Python API: https://openmodelica.org/doc/OpenModelicaUsersGuide/latest/ompython.html
+Carla Python API: https://carla.readthedocs.io/en/latest/build_windows/
+
 
 ### Installing
 
-* How/where to download your program
-* Any modifications needed to be made to files/folders
+DigitalTwinLibrary - When you download this folder, you may want to save it togheter with the other OpenModelica libraries. The path should be ~\OpenModelica1.16.1-64bit\lib\omlibrary. Further, to import this library to the Python script, you should check out line 1-23 in the Connected2API.py. 
+
+ConnectedAPI.py gets it input data from a restfulAPI, which is accessed by a server that is located in China. You may need to apply a new method of feeding input data to the Digital Twin. In the configuration developed in Connected2API.py we only use the forward speed as input, so for prototyping you could even create a numpy array that represents speed parameters as input data to the Digitla Twin, before you connect a Physical Twin. 
 
 ### Executing program
 
