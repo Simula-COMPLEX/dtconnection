@@ -17,7 +17,9 @@ The main tools that are used in this project is OpenModelica, Carla and Python. 
 If the reader want to continue on this work, I would suggest to look at the overall configuration before diving into the Python code that is attatched, because it is many possible ways that you can connect OpenModelica and Carla to design a Digital Twin. It is also nice to have an idea of the goal for the configuration before you start, because it can be easy to get abit lost while working with several tools. One example configuration that I think can be interesting to further develop can be seen in the image below: 
 
 
-
+<p align="center">
+  <img src="config2.png" />
+</p>
 
 
 
