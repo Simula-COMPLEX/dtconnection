@@ -7,7 +7,10 @@ If anybody want to continue on this work, I would suggest that you read the meth
 
 The thougth behind this project was to have the Digital Twin one step ahead of the Physical Twin, by adding this feature to the Digital Twin it is possible to find solutions in the digital world before we deploy actions to the physical world, in real time. Below is an image of the configuration that have been developed. The python code that is attatched in this rep got detailed comments, which also explains the flow of the configuration below.  
 
-<img align="center" src="config.png">
+<p align="center">
+  <src="config.png">
+    </p>
+
 
 The main tools that are used in this project is OpenModelica, Carla and Python. Most of the OpenModelica content which is used is developed by Massimo Ceraolo, so I would also suggest to check out his web-book which can be found here: https://omwebook.openmodelica.org/SMEHV. The 'dragF'-block which is designed by Massimo have been used to create the Drag Force Model, which adds the drag force equation to the Digital Twin. I would say that the Drag Force Model is a nice OpenModelica model that can be added to Digital Twins for vehicles, and this model can be found in the OpenModelica package DigitalTwinLibrary/CarlaTwin.mo in this rep. 
 
