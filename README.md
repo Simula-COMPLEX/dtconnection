@@ -9,7 +9,7 @@ The thougth behind this project was to have the Digital Twin one step ahead of t
 
 POST IMAGE HERE
 
-The main tools that are used in this project is OpenModelica, Carla and Python. Most of the OpenModelica content which is used is developed by Massimo Cereaolo, so I would also suggest to check out his web-book which can be found here: https://omwebook.openmodelica.org/SMEHV. The 'dragF'-block which is designed by Massimo have been used to create the Drag Force Model, which adds the Drag Force Equation to the digital world. I would say that the Drag Force Model is a nice OpenModelica model that can be added to Digital Twins for vehicles, and this model can be found in the OpenModelica package DigitalTwinLibrary/CarlaTwin.mo in this rep. 
+The main tools that are used in this project is OpenModelica, Carla and Python. Most of the OpenModelica content which is used is developed by Massimo Ceraolo, so I would also suggest to check out his web-book which can be found here: https://omwebook.openmodelica.org/SMEHV. The 'dragF'-block which is designed by Massimo have been used to create the Drag Force Model, which adds the Drag Force Equation to the digital world. I would say that the Drag Force Model is a nice OpenModelica model that can be added to Digital Twins for vehicles, and this model can be found in the OpenModelica package DigitalTwinLibrary/CarlaTwin.mo in this rep. 
 
 If the reader want to continue on this work, I would suggest to look at the overall configuration before diving into the Python code that is attatched, because it is many possible ways that you can connect OpenModelica and Carla to design a Digital Twin. One example configuration can be seen in the image below: 
 
