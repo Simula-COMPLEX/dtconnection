@@ -11,7 +11,7 @@ POST IMAGE HERE
 
 The main tools that are used in this project is OpenModelica, Carla and Python. Most of the OpenModelica content which is used is developed by Massimo Ceraolo, so I would also suggest to check out his web-book which can be found here: https://omwebook.openmodelica.org/SMEHV. The 'dragF'-block which is designed by Massimo have been used to create the Drag Force Model, which adds the drag force equation to the Digital Twin. I would say that the Drag Force Model is a nice OpenModelica model that can be added to Digital Twins for vehicles, and this model can be found in the OpenModelica package DigitalTwinLibrary/CarlaTwin.mo in this rep. 
 
-If the reader want to continue on this work, I would suggest to look at the overall configuration before diving into the Python code that is attatched, because it is many possible ways that you can connect OpenModelica and Carla to design a Digital Twin. It is also nice to have an idea of the goal for the configuration before you start, because it can be abit easy to get lost while working with several tools. One example configuration can be seen in the image below: 
+If the reader want to continue on this work, I would suggest to look at the overall configuration before diving into the Python code that is attatched, because it is many possible ways that you can connect OpenModelica and Carla to design a Digital Twin. It is also nice to have an idea of the goal for the configuration before you start, because it can be easy to get abit lost while working with several tools. One example configuration that I think can be interesting to further develop can be seen in the image below: 
 
 POST IMAGE HERE
 
@@ -38,19 +38,12 @@ POST IMAGE HERE
 code blocks for commands
 ```
 
-## Help
-
-Any advise for common problems or issues.
-```
-command to run if program contains helper info
-```
-
 ## Authors
 Øyvind Soma
 
 oyvind.som@gmail.com
 
-Please send me a mail if you have any questions, I would be happy to help! 
+Please send me a mail if you have any questions or encounter any errors, I would be happy to help! 
 
 ## License
 
