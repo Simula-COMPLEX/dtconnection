@@ -3,7 +3,20 @@
 
 ## Description
 
-An in-depth paragraph about your project and overview of use.
+If anybody want to continue on this work, I would suggest that you read the method chapter (chapter 3) in "UIO_masterthesis_soma.pdf". Further, to get the fundamental understanding of Digital Twins before starting, I would suggest that you red David Jones et al. 'Characterising the Digital Twin: A systematic literature review' and Tao Yue et al. 'Understanding Digital Twins for Cyber-Physical Systems: A Conceptual Model'
+
+The thougth behind this project was to have the Digital Twin one step ahead of the Physical Twin, by adding this feature to the Digital Twin it is possible to find solutions in the digital world before we deploy actions to the physical world, in real time. Below is an image of the configuration that have been developed. The python code that is attatched in this rep got detailed comments, which also explains the flow of the configuration below.  
+
+POST IMAGE HERE
+
+The main tools that are used in this project is OpenModelica, Carla and Python. Most of the OpenModelica content which is used is developed by Massimo Cereaolo, so I would also suggest to check out his web-book which can be found here: https://omwebook.openmodelica.org/SMEHV. The 'dragF'-block which is designed by Massimo have been used to create the Drag Force Model, which adds the Drag Force Equation to the digital world. I would say that the Drag Force Model is a nice OpenModelica model that can be added to Digital Twins for vehicles, and this model can be found in the OpenModelica package DigitalTwinLibrary/CarlaTwin.mo in this rep. 
+
+If the reader want to continue on this work, I would suggest to look at the overall configuration before diving into the Python code that is attatched, because it is many possible ways that you can connect OpenModelica and Carla to design a Digital Twin. One example configuration can be seen in the image below: 
+
+POST IMAGE HERE
+
+
+
 
 ## Getting Started
 
