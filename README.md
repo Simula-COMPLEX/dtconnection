@@ -46,10 +46,10 @@ Please send me a mail if you have any questions, I would be happy to help!
 
 ## Acknowledgments
 
-Massimo Ceraolo, Simplified Modelling of Electric and Hybrid Vehicles (url: https://omwebook.openmodelica.org/SMEHV)
+Massimo Ceraolo, Simplified Modelling of Electric and Hybrid Vehicles, url: https://omwebook.openmodelica.org/SMEHV
 
-Alexander Koumis, Clarification regarding player measurements (url:https://github.com/carla-simulator/carla/issues/355#issuecomment-477472667)
+Alexander Koumis, Clarification regarding player measurements, url:https://github.com/carla-simulator/carla/issues/355#issuecomment-477472667
 
-Adrian Pop, OpenModelica Examples (url: https://github.com/adrpo/OMExamples/tree/master/FMUResourceExample)
+Adrian Pop, OpenModelica Examples, url: https://github.com/adrpo/OMExamples/tree/master/FMUResourceExample
 
-CARLA documentation (url: https://carla.readthedocs.io/en/0.9.11/)
+CARLA documentation, url: https://carla.readthedocs.io/en/0.9.11/
